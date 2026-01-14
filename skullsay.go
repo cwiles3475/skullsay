@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"io"
+	"os"
 	"strings"
 )
 
@@ -23,13 +23,12 @@ func main() {
 		show1 = strings.Join(show, " ")
 	}
 
-
 	fmt.Println("")
 	fmt.Println("----------------------------")
 	fmt.Println(show1)
 	fmt.Println("----------------------------")
 	fmt.Println("     \\")
-	fmt.Println("      \\")  
+	fmt.Println("      \\")
 	fmt.Println("       \\  ⠀⠀⠀⢀⣀⣤⣤⣤⣤⣄⡀⠀⠀⠀⠀")
 	fmt.Println("          ⠀⢀⣤⣾⣿⣾⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀")
 	fmt.Println("          ⢠⣾⣿⢛⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀")
@@ -39,6 +38,7 @@ func main() {
 	fmt.Println("          ⢸⡇⠀⠀⠉⠛⠛⣿⣿⠛⠛⠉⠀⠀⣿⡇")
 	fmt.Println("          ⢸⣿⣀⠀⢀⣠⣴⡇⠹⣦⣄⡀⠀⣠⣿⡇")
 	fmt.Println("          ⠈⠻⠿⠿⣟⣿⣿⣦⣤⣼⣿⣿⠿⠿⠟⠀ ")
+	fmt.Println("          ⠀⠀⠀⠀⠸⡿⣿⣿⢿⡿⢿⠇⠀⠀⠀ ")
 	fmt.Println("          ⠀⠀⠀⠀⠸⡿⣿⣿⢿⡿⢿⠇⠀⠀⠀ ")
 	fmt.Println("          ⠀⠀⠀⠀⠀⠀⠈⠁⠈⠁⠀⠀⠀⠀⠀⠀")
 }
